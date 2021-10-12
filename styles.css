@@ -1,3 +1,86 @@
-.body{
-    background-color: red;
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: white;
+}
+
+.description p {
+  color: white;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+.header {
+  background-image: url("Assets/bluebackground.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+a.btn {
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 20px;
+}
+a.btn:hover {
+  border-radius: 0.25rem;
+  background-color: #ccc;
+  color: #222;
+}
+
+.socialmedia {
+    margin: 1px;
 }

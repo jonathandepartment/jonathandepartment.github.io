@@ -42,7 +42,7 @@ body {
   margin-bottom: 16px;
 }
 .header {
-  background-image: url("Assets/bluebackground.jpg");
+  background-image: url("Assets/abisko_small.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -84,4 +84,9 @@ a.btn:hover {
 .socialmedia {
     margin: 1px;
     cursor: pointer;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  color: whitesmoke;
 }
